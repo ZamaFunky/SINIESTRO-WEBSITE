@@ -66,6 +66,7 @@ def consultar_form_siniestro():
     color = request.form.get('color')
     placas = request.form.get('placas')
     aseguradora = request.form.get('aseguradora')
+    telefono = request.form.get('telefono')
 
     # Filtros exactos (AND entre sí)
     filtros_and = {}
@@ -147,7 +148,8 @@ def consultar_form_siniestro():
             <th>Color</th>
             <th>Placas</th>
             <th>Aseguradora</th>
-            <th>&Uacute;lt. Actualizaci&oacute;n</th>
+            <th>Ult. Actualizacion</th>
+            <th>Telefono</th>
             <th>Estado</th>
           </tr>
         </thead>
