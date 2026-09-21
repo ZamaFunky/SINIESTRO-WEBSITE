@@ -151,6 +151,7 @@ def consultar_form_siniestro():
     # ==============================
 
     siniestros_mem = getattr(app, 'SINIESTROS', {})
+    
 
     resultados = []
 
