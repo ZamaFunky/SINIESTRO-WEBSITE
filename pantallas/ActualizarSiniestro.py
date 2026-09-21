@@ -1,7 +1,7 @@
 from flask import render_template_string, request
 from datetime import datetime, date
 
-from __main__ import app
+from app import app
 from clases.Siniestro import Siniestro
 from pantallas.template_base import (
     get_css_link,

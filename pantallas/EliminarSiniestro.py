@@ -1,6 +1,6 @@
 from flask import render_template_string, request
 
-from __main__ import app
+from app import app
 from pantallas.template_base import (
     get_css_link,
     get_header,

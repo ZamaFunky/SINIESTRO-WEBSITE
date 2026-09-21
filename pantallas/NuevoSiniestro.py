@@ -1,6 +1,6 @@
 from flask import render_template_string, request, redirect
 from datetime import datetime
-from __main__ import app
+from app import app
 from clases.Siniestro import Siniestro, ESTATUS_TALLER
 from pantallas.template_base import get_css_link, get_header, get_footer, status_badge_html, get_aseguradora_select_html, get_estatus_taller_select_html
 
